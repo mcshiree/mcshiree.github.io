@@ -3,6 +3,7 @@ body {
 	background-color: #000;
 }
 h1 {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto+Slab', sans-serif;
+	font-style: center; 
 }
 h3{font-family: Arial, sans-serif}
