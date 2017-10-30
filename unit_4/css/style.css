@@ -2,9 +2,10 @@
 body {
 	background-color: #000;
 }
-h1,p,a {
-	font-family: 'Roboto+Slab', sans-serif;
+h1,p {
+	font-family: 'Roboto+Slab', serif;
 	font-style: center; 
 }
-h3,nav {font-family: Arial, sans-serif;
+h3 {font-family: Arial, sans-serif;
 }
+
