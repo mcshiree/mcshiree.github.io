@@ -1,11 +1,30 @@
-@import url(https://fonts.google.com/?category=Serif&selection.family=Roboto+Slab) 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;} 
 body {
 	background-color: #000;
+	color: #fff;
 }
 h1,p {
-	font-family: 'Roboto+Slab', serif;
-	font-style: center; 
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: #222 
 }
 h3 {font-family: Arial, sans-serif;
 }
 
+img{display: block; 
+	width: 100%;
+}
+#the_beginning{position: relative;}
+#layer{position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);}
+nav{width: 100%;}
+nav a{ display: block;
+	width:25%;
+	float:left;
+	text-align:center;
+}
