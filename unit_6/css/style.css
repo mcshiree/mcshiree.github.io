@@ -7,7 +7,7 @@ header {
     border: 1px black solid;
     padding: 20px;
 }
-#two {
+#one {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
@@ -17,7 +17,7 @@ aside {
     float: left;
     height: 150px;
     width: 25%;
-    background-color: #FFC675;
+    background-color: violet;
     border: 1px black solid;
     padding: 20px;
 }
@@ -26,7 +26,7 @@ article {
     float: right;
     height: 150px;
     width: 75%;
-    background-color: #E89C6C;
+    background-color: pink;
     border: 1px black solid;
     padding: 20px;
 }
