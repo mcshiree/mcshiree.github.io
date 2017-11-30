@@ -1,28 +1,38 @@
 body{
 	text-align: center;
+	font-family: sans-serif;
 }
 
 ul {
 	list-style: none;
-	column-count: 2;
 	float: none;
-	margin: 10px 10px 10px 10px;
+	margin: 3em;
+}
+li {
+	width: 50%;
+	float: left;
+}
+
+li a {
+	display: block;
 }
 
 img {
-	width: 80%;
+	width: 75%;
 	border-radius: 10%;
-	box-shadow: 1px 2px 4px 1px blue;
+	box-shadow: 2px 3px 5px 2px #77001d;
+	margin-top: 7%
+	margin-bottom: 8%
 }
 
 a {
-	margin: 10px 20px 10px 10px;
-	border: 3px solid blue;
+	margin: 2.5px 6px 2.5px 2.5px;
+	border: 3px solid #77001d;
 	padding-right: 10px;
 	padding: 20px;
-	color: gray;
+	color: #515151;
 	text-decoration: none;
-	font-size: 1.25em;
+	font-size: 1.5em;
 	transition: color 340ms;
 }
 
@@ -32,9 +42,39 @@ a:hover {
 
 .Contact {
 	color: green;
+}
 
-@ media only screen and (max-width: 510px) {
+.clearfix:after {
+	content: '';
+	display: block;
+	visibility: hidden;
+	height:0;
+	font-size:0;
+}
+
+@media only screen and (max-width: 1280px) {
+	img {
+		width: 50%;	
+	}	
+}
+
+@media only screen and (max-width: 510px) {
 	body {
 		font-size: .5em;
 	}	
+}
+
+@media only screen and (max-width: 420px) {
+	ul {
+	column-count: 0;
+	float: left;
+	text-align: center;
+	}
+
+	li {
+		width: 100%;
+		float:none;
+		display: inline-block;
+
+	}
 }
